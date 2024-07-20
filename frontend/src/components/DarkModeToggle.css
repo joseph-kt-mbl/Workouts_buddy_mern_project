@@ -1,0 +1,41 @@
+/* src/components/DarkModeToggle.css */
+.toggle-switch {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 3px;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .toggle-switch.light {
+    background-color: #333; /* Dark switch for light mode */
+  }
+  
+  .toggle-switch.dark {
+    background-color: #ccc; /* Light switch for dark mode */
+  }
+  
+  .toggle-circle {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .toggle-circle.light {
+    transform: translateX(3px); /* Circle on the left for light mode */
+  }
+  
+  .toggle-circle.dark {
+    transform: translateX(33px); /* Circle on the right for dark mode */
+  }
+  

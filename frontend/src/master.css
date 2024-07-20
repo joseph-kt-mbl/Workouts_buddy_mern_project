@@ -1,0 +1,12 @@
+.mr1rem{
+    margin-right: 1rem;
+}
+.user-email{
+    background-color: rgb(234, 234, 234);
+    border: 1px rgb(181, 181, 181) solid;
+    border-radius: 12px;
+    padding: .25rem .5rem;
+}
+.user-email.dark-mode{
+    background-color: #1e1e1e;
+}
